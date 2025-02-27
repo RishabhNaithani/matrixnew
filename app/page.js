@@ -1,27 +1,22 @@
-import { Footer, Navbar } from '../components';
-import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, World } from '../sections';
+'use client';
+
+import { Footer } from '../components';
+import { About, Explore, Hero, Insights, Achievements } from '../sections';
 
 const Page = () => (
-  <div className="bg-primary-black overflow-hidden">
-    <Navbar />
+  <div className="bg-[#FFF5CE] overflow-hidden">
     <Hero />
     <div className="relative">
-      <About />
       <div className="gradient-03 z-0" />
+      <About />
+      <div className="z-0 relative py-6" />
       <Explore />
     </div>
-
     <div className="relative">
-      <GetStarted />
       <div className="gradient-04 z-0" />
-      <WhatsNew />
-    </div>
-    <World />
-    <div className="relative">
       <Insights />
-      <div className="gradient-04 z-0" />
-      <Feedback />
     </div>
+    <Achievements />
     <Footer />
   </div>
 );

@@ -11,44 +11,34 @@ const Footer = () => (
     variants={footerVariants}
     initial="hidden"
     whileInView="show"
-    className={`${styles.xPaddings} py-8 relative`}
+    className={`${styles.xPaddings} py-4 relative`}
   >
     <div className="footer-gradient" />
-    <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
-      <div className="flex items-center justify-between flex-wrap gap-5">
-        <h4 className="font-bold md:text-[64px] text-[44px] text-white">
-          Enter the Metaverse
+    <div className={`${styles.innerWidth} mx-auto flex flex-col gap-4`}>
+      <div className="flex items-center justify-between flex-wrap gap-4">
+        <h4 className="font-bold md:text-[48px] text-[32px] text-[#183282]">
+          Thank you!
         </h4>
-        <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
-          <img
-            src="/headset.svg"
-            alt="headset"
-            className="w-[24px] h-[24px] object-contain"
-          />
-          <span className="font-normal text-[16px] text-white">
-            Enter Metaverse
-          </span>
-        </button>
       </div>
 
       <div className="flex flex-col">
-        <div className="mb-[50px] h-[2px] bg-white opacity-10" />
+        <div className="mb-[30px] h-[1px] bg-white opacity-10" />
 
-        <div className="flex items-center justify-between flex-wrap gap-4">
-          <h4 className="font-extrabold text-[24px] text-white">
-            METADROID
+        <div className="flex items-center justify-between flex-wrap gap-3">
+          <h4 className="font-extrabold text-[20px] text-[#183282]">
+            Company name 
           </h4>
-          <p className="font-normal text-[14px] text-white opacity-50">
-            Copyright © 2021 - 2022 Metadroid. All rights reserved.
+          <p className="font-normal text-[12px] text-[#183282] opacity-50">
+            Copyright © 2024 - 2025 Company name Pvt. Ltd. All rights reserved.
           </p>
 
-          <div className="flex gap-4">
+          <div className="flex gap-4 p-2 border border-[#183282] rounded-full bg-[#183282] shadow-lg">
             {socials.map((social) => (
               <a key={social.name} href={social.link}>
                 <img
                   src={social.url}
                   alt={social.name}
-                  className="w-[24px] h-[24px] object-contain"
+                  className="w-[20px] h-[20px] object-contain"
                 />
               </a>
             ))}

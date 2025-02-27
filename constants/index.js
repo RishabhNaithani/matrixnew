@@ -1,28 +1,28 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/planet-01.png',
-    title: 'The Hogwarts',
+    imgUrl: '/robotImage.jpg',
+    title: 'Custom robots',
   },
   {
     id: 'world-2',
-    imgUrl: '/planet-02.png',
-    title: 'The Upside Down',
+    imgUrl: '/drone.jpg',
+    title: 'Drones',
   },
   {
     id: 'world-3',
-    imgUrl: '/planet-03.png',
-    title: 'Hueco Mundo',
+    imgUrl: '/IoT.webp',
+    title: 'Internet of Things',
   },
   {
     id: 'world-4',
-    imgUrl: '/planet-04.png',
-    title: 'Paradise Island',
+    imgUrl: '/3dDesign.jpg',
+    title: '3d Printing and Design',
   },
   {
     id: 'world-5',
-    imgUrl: '/planet-05.png',
-    title: 'Hawkins Labs',
+    imgUrl: '/stemKit.webp',
+    title: 'STEM Kits',
   },
 ];
 
@@ -49,39 +49,52 @@ export const newFeatures = [
 
 export const insights = [
   {
-    imgUrl: '/planet-06.png',
-    title: 'The launch of the Metaverse and be happy :)',
+    imgUrl: '/image-21@2x.png',
+    title: 'Rishabh Naithani',
     subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+        'Taker care of embedded, ROS2, software for the robots and IoT devices',
   },
   {
-    imgUrl: '/planet-07.png',
-    title: '7 tips to easily master the madness of the Metaverse',
+    imgUrl: '/image-31@2x.png',
+    title: 'Arshad Mew',
     subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
+        'Takes care of the marketting, ROS2, embedded coding and STEM kits ',
   },
   {
-    imgUrl: '/planet-08.png',
-    title: 'With one platform you can explore the whole world virtually',
+    imgUrl: '/aman2.jpg',
+    title: 'Amandeep',
     subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+        'Experienced in STEM education, robotics and custom STEM kits.',
   },
+  {
+    imgUrl: '/prem2.png',
+    title: 'Prem',
+    subtitle:
+        '3d designer, he takes care of the design and implementation of the robots, drones which we make',
+  },
+  {
+    imgUrl: '/image-41',
+    title: 'Dr. Pardeep Jindal',
+    subtitle:
+        'Mentor for the team, experience of over 13 years of research and teaching in the field embedded and IoT',
+  },
+  
 ];
 
 export const socials = [
   {
     name: 'twitter',
     url: '/twitter.svg',
-    link: 'https://twitter.com/VigneshGupta9',
+    link: 'https://www.linkedin.com/company/matrixhiveinnovations/',
   },
   {
     name: 'linkedin',
     url: '/linkedin.svg',
-    link: 'https://www.linkedin.com/in/vigneshgupta/',
+    link: 'https://www.linkedin.com/company/matrixhive.in',
   },
   {
     name: 'instagram',
     url: '/instagram.svg',
-    link: 'https://www.instagram.com/_viggi.g_/',
+    link: 'https://www.instagram.com/matrixhive.innovations?igsh=d2JnMmk2amJlbXQ3',
   },
 ];

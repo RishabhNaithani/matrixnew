@@ -6,6 +6,7 @@ import WhatsNew from './WhatsNew';
 import World from './World';
 import Insights from './Insights';
 import Feedback from './Feedback';
+import Achievements from './Achievements';
 
 export {
   Hero,
@@ -16,4 +17,7 @@ export {
   World,
   Insights,
   Feedback,
+  Achievements,
 };
+
+export { default as Footer } from '../components/Footer';
