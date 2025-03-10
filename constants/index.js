@@ -11,7 +11,7 @@ export const exploreWorlds = [
   },
   {
     id: 'world-3',
-    imgUrl: '/IoT.webp',
+    imgUrl: '/homeautomation.jpg',
     title: 'Internet of Things',
   },
   {
@@ -21,7 +21,7 @@ export const exploreWorlds = [
   },
   {
     id: 'world-5',
-    imgUrl: '/stemKit.webp',
+    imgUrl: '/STEM.jpg',
     title: 'STEM Kits',
   },
 ];

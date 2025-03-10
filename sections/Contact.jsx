@@ -39,7 +39,7 @@ const Contact = () => (
               <div>
                 <h3 className="text-[#183282] font-semibold text-xl">Email</h3>
                 <a href="mailto:contact@matrixhive.com" className="text-[#183282]/70 hover:text-[#183282] transition-colors">
-                  contact@matrixhive.com
+                  matrixhive.info@gmail.com
                 </a>
               </div>
             </motion.div>

@@ -23,7 +23,7 @@ const About = () => (
 
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
-        className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-[#183282]"
+        className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-[#white]"
       >
         At <span className="font-extrabold"> Matrixhive Innovations </span> we are passionate about pushing the boundaries of technology. Specializing in robotics, IoT, AI, and cutting-edge automation, we develop innovative solutions that bridge the gap between hardware and software. Our mission is to create intelligent systems that enhance efficiency, improve daily life, and drive the future of technology. With a focus on  <span className="font-extrabold">research and development</span>, we turn ambitious ideas into reality, empowering businesses and individuals with smart, scalable solutions.
       </motion.p>

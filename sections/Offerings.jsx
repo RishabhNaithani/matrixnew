@@ -8,7 +8,7 @@ import { OfferingCard } from '../components';
 const offerings = [
   {
     id: 'offering-1',
-    imgUrl: '/IoT.webp',
+    imgUrl: '/',
     title: 'IoT Solutions',
     description: 'Smart solutions for connected devices and automation systems.'
   },
@@ -26,7 +26,7 @@ const offerings = [
   },
   {
     id: 'offering-4',
-    imgUrl: '/stemKit.webp',
+    imgUrl: '/STEM.jpg',
     title: 'STEM Education',
     description: 'Educational kits and programs for technology learning.'
   },
