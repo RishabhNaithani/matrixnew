@@ -6,17 +6,17 @@ import { useState } from 'react';
 const teamData = [
   {
     id: 1,
-    name: "Arshad Mew",
-    role: "CTO",
-    description: "Technical expert specializing in cloud architecture and system design.",
-    image: "/image-31@2x.png",
-    linkedin: "https://www.linkedin.com/in/mohd-arshad-mew-4120a1209/"
+    name: "Rishabh Naithani",
+    role: "Robotics Engineer",
+    description: "Taker care of embedded, ROS2, software for the robots and IoT devices.",
+    image: "/image-21@2x.png",
+    linkedin: "https://www.linkedin.com/in/rishabh-naithani-6a3076214/"
   },
   {
     id: 2,
     name: "Arshad Mew",
-    role: "CTO",
-    description: "Technical expert specializing in cloud architecture and system design.",
+    role: "Data Analyst",
+    description: "Takes care of the marketting, ROS2, embedded coding and STEM kits",
     image: "/image-31@2x.png",
     linkedin: "https://www.linkedin.com/in/mohd-arshad-mew-4120a1209/"
   },
@@ -24,7 +24,7 @@ const teamData = [
     id: 3,
     name: "amandeep",
     role: "Lead Developer",
-    description: "Full-stack developer with expertise in modern web technologies.",
+    description: "Experienced in STEM education, robotics and custom STEM kits.",
     image: "/aman2.jpg",
     linkedin: "https://www.linkedin.com/in/aman-deep-0b76a821b/"
   },
@@ -32,9 +32,17 @@ const teamData = [
     id: 4,
     name: "Dr. Pardeep Jindal",
     role: "Director and Mentor",
-    description: "Creative designer crafting intuitive and engaging user experiences.",
-    image: "/team/sai-krishna.jpg",
+    description: "Mentor for the team, experience of over 13 years of research and teaching in the field embedded and IoT",
+    image: "/image.png",
     linkedin: "https://www.linkedin.com/in/dr-pardeep-kumar-jindal-1bb1b1217/"
+  },
+  {
+    id: 5,
+    name: "Prem",
+    role: "3D Designer",
+    description: "3d designer, he takes care of the design and implementation of the robots, drones which we make",
+    image: "/image-4@2x.png",
+    linkedin: "https://www.linkedin.com/in/prem-prajapati-738bb8255/"
   },
  
 ];

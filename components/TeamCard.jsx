@@ -27,4 +27,4 @@ const TeamCard = ({ imgUrl, name, role, description }) => (
   </motion.div>
 );
 
-export default TeamCard; 
+export default TeamCard;
