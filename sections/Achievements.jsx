@@ -9,17 +9,17 @@ const achievements = [
   {
     id: 1,
     image: '/achieve.jpg',
-    title: 'Achievement 1',
+    title: 'Eminence Ideathon',
   },
   {
     id: 2,
-    image: '/hack-n-win.jpg',
-    title: 'hack-n-win',
+    image: '/pitch deck.jpg',
+    title: 'IIIT Delhi Sonipat Campus',
   },
   {
     id: 3,
-    image: '/ideathon.jpg',
-    title: 'CGC Landran',
+    image: '/D4 hackathon.jpg',
+    title: 'CGC Jhanjeri',
   },
   {
     id: 3,
